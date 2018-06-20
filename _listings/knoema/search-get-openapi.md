@@ -84,7 +84,7 @@ paths:
       parameters:
       - in: path
         name: dataset id
-        description: 'Unique dataset identifier '
+        description: Unique dataset identifier
         type: string
         format: string
       responses:
@@ -102,7 +102,7 @@ paths:
       parameters:
       - in: query
         name: DatasetId
-        description: 'Unique dataset identifier '
+        description: Unique dataset identifier
         type: string
         format: string
       responses:
@@ -130,7 +130,7 @@ paths:
         format: string
       - in: query
         name: query
-        description: 'search query for which data is required '
+        description: search query for which data is required
         type: string
         format: string
       - in: query
